@@ -1,0 +1,254 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styling with gradient background */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 22px; /* Further increased base font size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Gradient Background */
+    background: linear-gradient(135deg, #ff6b6b, #f06595, #7b2cbf, #5a189a);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+
+/* Animation for a shifting gradient */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Container Styling */
+.container, header {
+    max-width: 700px;
+    width: 100%;
+    margin: 20px;
+    padding: 30px; /* Increased padding */
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-size: 2.2em; /* Larger heading font size */
+}
+
+p, li, td, th {
+    font-size: 1.6em; /* Larger text size for paragraphs and table content */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, button {
+    padding: 22px; /* Larger padding for readability */
+    font-size: 1.4em; /* Larger input and button text */
+    border-radius: 8px; /* Rounded for a more modern look */
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 18px; /* Increased padding for table cells */
+    font-size: 1.4em; /* Larger table text */
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Navigation Links */
+.dashboard-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+
+.dashboard-nav a {
+    background-color: #007bff;
+    color: white;
+    padding: 18px; /* Larger padding for navigation links */
+    font-size: 1.5em; /* Larger navigation text */
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.dashboard-nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .container, header {
+        max-width: 800px;
+    }
+
+    .dashboard-nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    table, th, td {
+        font-size: 1.6em; /* Even larger table text on larger screens */
+    }
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.member-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #007BFF;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul.button-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.button-list li {
+    margin: 0 10px;
+}
+
+.button {
+    display: block;
+    padding: 15px 25px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

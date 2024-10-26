@@ -1,0 +1,238 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FFCC00, #FF6699, #FF9966, #66B3FF, #66FF99);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FFCC00, #FF6699, #FF9966, #66B3FF, #66FF99);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+header {
+    background: #3d5af1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#login-section, .form-container, .table-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 40px; /* Increase padding */
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Increase max-width */
+    width: 100%; /* Full width */
+    margin: 20px; /* Margin around the sections */
+}
+
+h2 {
+    color: #3d5af1;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 12px;
+    margin: 15px 0; /* Increase margin */
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    transition: border-color 0.3s;
+    font-size: 16px; /* Increase font size */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    border-color: #3d5af1;
+}
+
+/* Button Styles */
+button {
+    background: #3d5af1;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-size: 16px; /* Increase font size */
+}
+
+button:hover {
+    background: #284b63;
+}
+
+/* Table Styling */
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px; /* Increase font size */
+}
+
+th {
+    background: #3d5af1;
+    color: white;
+}
+
+button.edit {
+    background: #4CAF50;
+    color: white;
+}
+
+button.delete {
+    background: #f4511e;
+    color: white;
+}
+
+/* Message Styles */
+.message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.message.success { background: #4CAF50; color: white; }
+.message.error { background: #f4511e; color: white; }
+.message.info { background: #2196F3; color: white; }
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+header {
+    background: #3d5af1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#login-section, .form-container, .table-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #3d5af1;
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    border-color: #3d5af1;
+}
+
+/* Button Styles */
+button {
+    background: #3d5af1;
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background: #284b63;
+}
+
+/* Table Styling */
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background: #3d5af1;
+    color: white;
+}
+
+button.edit {
+    background: #4CAF50;
+    color: white;
+}
+
+button.delete {
+    background: #f4511e;
+    color: white;
+}
+
+/* Message Styles */
+.message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.message.success { background: #4CAF50; color: white; }
+.message.error { background: #f4511e; color: white; }
+.message.info { background: #2196F3; color: white; }
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}

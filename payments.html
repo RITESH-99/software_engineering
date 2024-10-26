@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Links</title>
+    <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Links</h1>
+    </header>
+    <main>
+        <div class="link-container">
+            <div class="shopping-link">
+                <img src="https://yt3.googleusercontent.com/cT40lDWqE99Ch52R3ftuAExjmjF-yZiY5rUSv_0Q3NXhcqzmiax8ReXuS4Qe53Fizcaw4hEX=s900-c-k-c0x00ffffff-no-rj" alt="Flipkart">
+                <a href="https://www.flipkart.com" target="_blank"><strong>Flipkart</strong></a>
+            </div>
+            <div class="shopping-link">
+                <img src="amazon.png" alt="Amazon">
+                <a href="https://www.amazon.in" target="_blank"><strong>Amazon</strong></a>
+            </div>
+            <div class="shopping-link">
+                <img src="mintra.png" alt="Myntra">
+                <a href="https://www.myntra.com" target="_blank"><strong>Myntra</strong></a>
+            </div>
+            <div class="shopping-link">
+                <img src="snapdeal.png" alt="Snapdeal">
+                <a href="https://www.snapdeal.com" target="_blank"><strong>Snapdeal</strong></a>
+            </div>
+        </div>
+        <div class="checkout">
+            <h2>Checkout</h2>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+            <p>GST (18%): $<span id="gst">0.00</span></p>
+            <p>Final Price: $<span id="final-price">0.00</span></p>
+            <button onclick="payNow()">Pay Now</button>
+        </div>
+        <div class="feedback">
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <textarea id="feedback" rows="4" placeholder="Your feedback here..." required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="script4.js"></script>
+</body>
+</html>
